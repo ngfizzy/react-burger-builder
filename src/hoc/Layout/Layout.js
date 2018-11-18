@@ -26,7 +26,6 @@ class Layout extends Component {
                 closed={this.sideDrawerClosedHandler}
                 open={this.state.showSideDrawer}
             />
-            <div>Toolbar, SideDrawer, Backdrop</div>
             <main className={classes.Content}>
                 {this.props.children}
             </main>
